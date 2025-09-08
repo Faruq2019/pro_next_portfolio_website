@@ -1,3 +1,17 @@
+import {
+  Code2,
+  Database,
+  Globe,
+  Smartphone,
+  Palette,
+  Server,
+  GitBranch,
+  Zap,
+  Shield,
+  Brain,
+  LucideIcon,
+} from "lucide-react";
+
 export const projects = [
   {
     title: "Afronet Web App (Admin Panel)",
@@ -37,127 +51,127 @@ export const projects = [
   },
 ];
 
-export const skills = [
-  {
-    title: "Agile Project Management",
-    description: "Managing projects using agile methodologies",
-    link: "",
-  },
-  {
-    title: "AWS",
-    description: "Amazon Web Services for cloud computing",
-    link: "",
-  },
-  {
-    title: "Angular",
-    description: "Front-end web application framework",
-    link: "",
-  },
-  {
-    title: "Angular.js",
-    description: "JavaScript framework for building web applications",
-    link: "",
-  },
-  {
-    title: "Bitbucket",
-    description: "Version control repository hosting",
-    link: "",
-  },
-  {
-    title: "Bootstrap",
-    description: "Front-end framework for developing responsive websites",
-    link: "",
-  },
-  {
-    title: "Cloud Technologies",
-    description: "Technologies for cloud computing services",
-    link: "",
-  },
-  { title: "CSS", description: "Style sheet language for web pages", link: "" },
-  {
-    title: "Debugging and Troubleshooting",
-    description: "Identifying and fixing bugs in software",
-    link: "",
-  },
-  {
-    title: "Digital Ocean",
-    description: "Cloud infrastructure provider",
-    link: "",
-  },
-  { title: "Git", description: "Version control system", link: "" },
-  {
-    title: "GitHub",
-    description: "Web-based version control hosting service",
-    link: "",
-  },
-  {
-    title: "HTML",
-    description: "Markup language for creating web pages",
-    link: "",
-  },
-  {
-    title: "Ionic",
-    description: "Framework for building mobile applications",
-    link: "",
-  },
-  {
-    title: "JavaScript",
-    description: "Programming language for web development",
-    link: "",
-  },
-  {
-    title: "jQuery",
-    description: "JavaScript library for DOM manipulation",
-    link: "",
-  },
-  { title: "Linux", description: "Open-source operating system", link: "" },
-  { title: "MDB", description: "Material Design for Bootstrap", link: "" },
-  { title: "MongoDB", description: "NoSQL database", link: "" },
-  {
-    title: "MySQL",
-    description: "Relational database management system",
-    link: "",
-  },
-  { title: "Next.js", description: "React framework for production", link: "" },
-  { title: "Node.js", description: "Server-side JavaScript", link: "" },
-  {
-    title: "Object-Oriented Programming (OOP)",
-    description: "Programming paradigm based on objects",
-    link: "",
-  },
-  { title: "PHP", description: "Server-side scripting language", link: "" },
-  {
-    title: "PostgreSQL",
-    description: "Advanced relational database management system",
-    link: "",
-  },
-  { title: "React", description: "Building interactive UIs", link: "" },
-  {
-    title: "React Native",
-    description: "Framework for building native mobile apps using React",
-    link: "",
-  },
-  {
-    title: "RESTful APIs",
-    description: "Architectural style for designing networked applications",
-    link: "",
-  },
-  {
-    title: "SQL",
-    description: "Structured query language for managing databases",
-    link: "",
-  },
-  {
-    title: "Tailwind CSS",
-    description: "Utility-first CSS framework for styling",
-    link: "",
-  },
-  {
-    title: "Version Control",
-    description: "System for managing changes to code",
-    link: "",
-  },
-];
+// export const skills = [
+//   {
+//     title: "Agile Project Management",
+//     description: "Managing projects using agile methodologies",
+//     link: "",
+//   },
+//   {
+//     title: "AWS",
+//     description: "Amazon Web Services for cloud computing",
+//     link: "",
+//   },
+//   {
+//     title: "Angular",
+//     description: "Front-end web application framework",
+//     link: "",
+//   },
+//   {
+//     title: "Angular.js",
+//     description: "JavaScript framework for building web applications",
+//     link: "",
+//   },
+//   {
+//     title: "Bitbucket",
+//     description: "Version control repository hosting",
+//     link: "",
+//   },
+//   {
+//     title: "Bootstrap",
+//     description: "Front-end framework for developing responsive websites",
+//     link: "",
+//   },
+//   {
+//     title: "Cloud Technologies",
+//     description: "Technologies for cloud computing services",
+//     link: "",
+//   },
+//   { title: "CSS", description: "Style sheet language for web pages", link: "" },
+//   {
+//     title: "Debugging and Troubleshooting",
+//     description: "Identifying and fixing bugs in software",
+//     link: "",
+//   },
+//   {
+//     title: "Digital Ocean",
+//     description: "Cloud infrastructure provider",
+//     link: "",
+//   },
+//   { title: "Git", description: "Version control system", link: "" },
+//   {
+//     title: "GitHub",
+//     description: "Web-based version control hosting service",
+//     link: "",
+//   },
+//   {
+//     title: "HTML",
+//     description: "Markup language for creating web pages",
+//     link: "",
+//   },
+//   {
+//     title: "Ionic",
+//     description: "Framework for building mobile applications",
+//     link: "",
+//   },
+//   {
+//     title: "JavaScript",
+//     description: "Programming language for web development",
+//     link: "",
+//   },
+//   {
+//     title: "jQuery",
+//     description: "JavaScript library for DOM manipulation",
+//     link: "",
+//   },
+//   { title: "Linux", description: "Open-source operating system", link: "" },
+//   { title: "MDB", description: "Material Design for Bootstrap", link: "" },
+//   { title: "MongoDB", description: "NoSQL database", link: "" },
+//   {
+//     title: "MySQL",
+//     description: "Relational database management system",
+//     link: "",
+//   },
+//   { title: "Next.js", description: "React framework for production", link: "" },
+//   { title: "Node.js", description: "Server-side JavaScript", link: "" },
+//   {
+//     title: "Object-Oriented Programming (OOP)",
+//     description: "Programming paradigm based on objects",
+//     link: "",
+//   },
+//   { title: "PHP", description: "Server-side scripting language", link: "" },
+//   {
+//     title: "PostgreSQL",
+//     description: "Advanced relational database management system",
+//     link: "",
+//   },
+//   { title: "React", description: "Building interactive UIs", link: "" },
+//   {
+//     title: "React Native",
+//     description: "Framework for building native mobile apps using React",
+//     link: "",
+//   },
+//   {
+//     title: "RESTful APIs",
+//     description: "Architectural style for designing networked applications",
+//     link: "",
+//   },
+//   {
+//     title: "SQL",
+//     description: "Structured query language for managing databases",
+//     link: "",
+//   },
+//   {
+//     title: "Tailwind CSS",
+//     description: "Utility-first CSS framework for styling",
+//     link: "",
+//   },
+//   {
+//     title: "Version Control",
+//     description: "System for managing changes to code",
+//     link: "",
+//   },
+// ];
 
 export const message = `Highly skilled Full Stack Developer with 3 years of experience in designing and building scalable,
 high-performance applications across various platforms. Proficient in a wide array of programming
@@ -173,4 +187,94 @@ export const navItems = [
   { name: "Skills", link: "#skills" },
   { name: "Projects", link: "#projects" },
   { name: "Contact", link: "#contact" },
+];
+export type Skill = {
+  title: string;
+  description: string;
+  icon: LucideIcon; // store component type, not ReactNode
+  level: number;
+  category: string;
+};
+
+export const skills: Skill[] = [
+  {
+    title: "Frontend Development",
+    description:
+      "Building responsive and interactive user interfaces with modern frameworks and libraries.",
+    icon: Code2,
+    level: 95,
+    category: "Development",
+  },
+  {
+    title: "Backend Development",
+    description:
+      "Creating robust server-side applications, APIs, and microservices architecture.",
+    icon: Server,
+    level: 88,
+    category: "Development",
+  },
+  {
+    title: "Database Design",
+    description:
+      "Designing efficient database schemas and optimizing query performance for scalable applications.",
+    icon: Database,
+    level: 85,
+    category: "Data",
+  },
+  {
+    title: "Web Technologies",
+    description:
+      "Expertise in modern web standards, performance optimization, and cross-browser compatibility.",
+    icon: Globe,
+    level: 92,
+    category: "Web",
+  },
+  {
+    title: "Mobile Development",
+    description:
+      "Creating native and cross-platform mobile applications with smooth user experiences.",
+    icon: Smartphone,
+    level: 78,
+    category: "Mobile",
+  },
+  {
+    title: "UI/UX Design",
+    description:
+      "Crafting intuitive user interfaces and delightful user experiences with design thinking.",
+    icon: Palette,
+    level: 82,
+    category: "Design",
+  },
+  {
+    title: "Version Control",
+    description:
+      "Advanced Git workflows, branching strategies, and collaborative development practices.",
+    icon: GitBranch,
+    level: 90,
+    category: "Tools",
+  },
+  {
+    title: "Performance Optimization",
+    description:
+      "Optimizing application performance, load times, and resource utilization for better UX.",
+    icon: Zap,
+    level: 87,
+    category: "Optimization",
+  },
+  {
+    title: "Security",
+    description:
+      "Implementing secure coding practices, authentication systems, and data protection measures.",
+    icon: Shield,
+    level: 83,
+    category: "Security",
+  },
+  {
+    title: "AI & Machine Learning",
+    description:
+      "Integrating AI capabilities and machine learning models into modern applications.",
+    icon: Brain,
+    level: 75,
+    category: "AI/ML",
+  },
 ];

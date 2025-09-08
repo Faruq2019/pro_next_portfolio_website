@@ -17,6 +17,7 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: "Farouk's Portfolio",
   description: "Modern and Minimalist Full Stack Dev Portfolio.",
+  icons: "/images/potrait.jpg",
 };
 
 export default function RootLayout({
@@ -31,7 +32,7 @@ export default function RootLayout({
       >
         <ThemeProvider
           attribute="class"
-          defaultTheme="dark"
+          defaultTheme="light"
           enableSystem
           disableTransitionOnChange
         >

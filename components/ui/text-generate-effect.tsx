@@ -1,5 +1,3 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
-/* eslint-disable prefer-const */
 "use client";
 import { useEffect } from "react";
 import { motion, stagger, useAnimate } from "framer-motion";
@@ -26,11 +24,11 @@ export const TextGenerateEffect = ({
       "span",
       {
         opacity: 1,
-        filter: filter ? "blur(0px)" : undefined,  // Conditionally set filter
-      } as any,  // Cast as any to bypass MotionStyle check
+        filter: filter ? "blur(0px)" : "none",
+      },
       {
         duration: duration,
-        delay: stagger(0.2),
+        delay: stagger(0.1),
       }
     );
   }, [animate, filter, duration]);
@@ -40,10 +38,10 @@ export const TextGenerateEffect = ({
       {wordsArray.map((word, idx) => (
         <motion.span
           key={`${word}-${idx}`}
-          className="dark:text-white text-black opacity-0"
+          className="opacity-0 text-gray-700 dark:text-gray-300"
           style={{
-            filter: filter ? "blur(10px)" : undefined,  // Inline filter styling
-          } as any}  // Cast as any here as well
+            filter: filter ? "blur(10px)" : "none",
+          }}
         >
           {word}{" "}
         </motion.span>
@@ -52,9 +50,9 @@ export const TextGenerateEffect = ({
   );
 
   return (
-    <div className={cn("font-bold", className)}>
+    <div className={cn("font-medium", className)}>
       <div className="mt-4">
-        <div className="dark:text-white text-black text-2xl leading-snug tracking-wide">
+        <div className="text-lg leading-relaxed tracking-wide">
           {renderWords()}
         </div>
       </div>
