@@ -55,7 +55,7 @@ const Hero = ({ onPress }: { onPress: () => void }) => {
             <div className="text-xl md:text-2xl lg:text-3xl text-white/80 font-light animate-slide-up delay-400">
               <span className="inline-block">Full-Stack Developer</span>
               <span className="mx-4 text-purple-400">•</span>
-              <span className="inline-block">Problem Solver</span>
+              <span className="inline-block">DevOps Engineer</span>
             </div>
           </div>
 
