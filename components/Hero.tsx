@@ -44,7 +44,9 @@ const Hero = ({ onPress }: { onPress: () => void }) => {
           {/* Main heading with gradient text */}
           <div className="space-y-4">
             <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold leading-tight">
-              <span className="block text-white animate-slide-up">Hi, I'm</span>
+              <span className="block text-white animate-slide-up">
+                Hi, I&apos;m
+              </span>
               <span className="block bg-gradient-to-r from-purple-400 via-pink-400 to-blue-400 bg-clip-text text-transparent animate-slide-up delay-200">
                 Farouk
               </span>
