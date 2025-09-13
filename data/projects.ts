@@ -82,8 +82,8 @@ export const projects: Project[] = [
     status: "completed",
   },
   {
-    id: "escro-system",
-    title: "Escro System App",
+    id: "escrow-system",
+    title: "Escrow System App",
     description:
       "Cross-platform mobile app for workout tracking, nutrition monitoring, and social fitness challenges.",
     technologies: [
@@ -103,12 +103,21 @@ export const projects: Project[] = [
     status: "completed",
   },
   {
-    id: "data-visualization",
-    title: "Data Visualization Dashboard",
+    id: "banking-app",
+    title: "Bank Web Application",
     description:
-      "Interactive dashboard for complex data analysis with real-time charts, filtering, and export capabilities.",
-    technologies: ["D3.js", "React", "Node.js", "MongoDB"],
-    link: "https://example.com/dashboard",
+      "A comprehensive finance management dashboard built with Next.js 15 that connects multiple bank accounts, displays real-time transactions and balances, enables secure money transfers between platform users, and features transaction history with pagination and spending category analysis.",
+    technologies: [
+      "Next.js",
+      "React",
+      "Chart.js",
+      "Dwolla",
+      "Plaid",
+      "Appwrite",
+      "Vercel",
+    ],
+    link: "https://banking-phi-seven.vercel.app/",
+    github: "https://github.com/Faruq2019/rouk_banking_app",
     image:
       "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=800",
     category: "web",
